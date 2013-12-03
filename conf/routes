@@ -1,0 +1,5 @@
+
+GET	/login				Auth.Login
+GET	/logout				Auth.Logout
+POST	/@users/auth			Auth.Auth
+POST	/@users/:id/:action		Auth.:action
